@@ -1,0 +1,6 @@
+*.kicad_prl
+fp-info-cache
+*-backups
+*.ini
+*.gbrjob
+*.pretty
