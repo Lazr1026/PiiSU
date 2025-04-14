@@ -4090,6 +4090,12 @@
 		(uuid "9f45a2c3-f49f-461d-9c36-78a3f69d1397")
 	)
 	(junction
+		(at 265.43 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a67a4a60-5102-4ae1-b564-431aa5a05da9")
+	)
+	(junction
 		(at 163.83 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4204,6 +4210,12 @@
 		(uuid "ddb705fb-4d81-4431-9227-76139ec58976")
 	)
 	(junction
+		(at 265.43 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0830788-9a23-4c8f-a892-3e43bf77e967")
+	)
+	(junction
 		(at 31.75 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4226,6 +4238,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaad6a68-d612-43e0-864b-17b66f24a051")
+	)
+	(junction
+		(at 265.43 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebd29a9b-8a9e-415b-883d-6860a3fa522d")
 	)
 	(junction
 		(at 53.34 100.33)
@@ -4341,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 64.77) (xy 273.05 64.77)
+			(xy 261.62 64.77) (xy 265.43 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4378,6 +4396,16 @@
 			(type default)
 		)
 		(uuid "04d43219-32e2-4146-914a-9f25c10453a9")
+	)
+	(wire
+		(pts
+			(xy 265.43 27.94) (xy 273.05 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05adcf55-5777-4865-aab0-8bdd1c654a45")
 	)
 	(wire
 		(pts
@@ -5211,6 +5239,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 45.72) (xy 273.05 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d40113a-bc10-4e39-a2c2-f96ea43a453d")
+	)
+	(wire
+		(pts
 			(xy 29.21 135.89) (xy 29.21 138.43)
 		)
 		(stroke
@@ -5361,6 +5399,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 24.13) (xy 265.43 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b15176-3227-4aa7-939d-2b2c87d9c1a1")
+	)
+	(wire
+		(pts
 			(xy 55.88 69.85) (xy 64.77 69.85)
 		)
 		(stroke
@@ -5421,7 +5469,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 27.94) (xy 273.05 27.94)
+			(xy 261.62 27.94) (xy 265.43 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6291,6 +6339,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 64.77) (xy 273.05 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d099b9c3-7efe-41be-a234-1f03f656d1d9")
+	)
+	(wire
+		(pts
 			(xy 85.09 22.86) (xy 93.98 22.86)
 		)
 		(stroke
@@ -6311,7 +6369,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 45.72) (xy 273.05 45.72)
+			(xy 261.62 45.72) (xy 265.43 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6498,6 +6556,16 @@
 			(type default)
 		)
 		(uuid "ed713861-cffa-4c26-aad1-6f5316b34fd1")
+	)
+	(wire
+		(pts
+			(xy 265.43 60.96) (xy 265.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede4c8ea-09c6-4a64-975e-bec9348c5aae")
 	)
 	(wire
 		(pts
@@ -7296,7 +7364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e95b0a")
-		(property "Reference" "TP2"
+		(property "Reference" "5v1"
 			(at 274.5232 21.1328 0)
 			(effects
 				(font
@@ -7347,7 +7415,7 @@
 		(instances
 			(project "wiiu-reg"
 				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
-					(reference "TP2")
+					(reference "5v1")
 					(unit 1)
 				)
 			)
@@ -7362,7 +7430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e95f37")
-		(property "Reference" "TP4"
+		(property "Reference" "GND2"
 			(at 274.5232 46.3804 0)
 			(effects
 				(font
@@ -7413,7 +7481,7 @@
 		(instances
 			(project "wiiu-reg"
 				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
-					(reference "TP4")
+					(reference "GND2")
 					(unit 1)
 				)
 			)
@@ -7428,7 +7496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e976a9")
-		(property "Reference" "TP5"
+		(property "Reference" "3v3"
 			(at 274.5232 57.9628 0)
 			(effects
 				(font
@@ -7479,7 +7547,7 @@
 		(instances
 			(project "wiiu-reg"
 				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
-					(reference "TP5")
+					(reference "3v3")
 					(unit 1)
 				)
 			)
@@ -7494,7 +7562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e97b2a")
-		(property "Reference" "TP6"
+		(property "Reference" "GND3"
 			(at 274.5232 83.2104 0)
 			(effects
 				(font
@@ -7545,7 +7613,7 @@
 		(instances
 			(project "wiiu-reg"
 				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
-					(reference "TP6")
+					(reference "GND3")
 					(unit 1)
 				)
 			)
@@ -7560,7 +7628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e97ff3")
-		(property "Reference" "TP7"
+		(property "Reference" "1v5"
 			(at 274.5232 98.6028 0)
 			(effects
 				(font
@@ -7611,7 +7679,7 @@
 		(instances
 			(project "wiiu-reg"
 				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
-					(reference "TP7")
+					(reference "1v5")
 					(unit 1)
 				)
 			)
@@ -7626,7 +7694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e98490")
-		(property "Reference" "TP8"
+		(property "Reference" "GND4"
 			(at 274.5232 120.0404 0)
 			(effects
 				(font
@@ -7677,7 +7745,7 @@
 		(instances
 			(project "wiiu-reg"
 				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
-					(reference "TP8")
+					(reference "GND4")
 					(unit 1)
 				)
 			)
@@ -9318,6 +9386,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34383bb5-f590-4e74-9734-c3d09a15031b")
+		(property "Reference" "GND1"
+			(at 266.446 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.446 49.5554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3d600ee-66d6-4016-a812-a712e569d782")
+		)
+		(instances
+			(project "wiiu-reg"
+				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 243.84 27.94 90)
 		(unit 1)
@@ -9707,6 +9841,72 @@
 			(project "wiiu-reg"
 				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e6e330d-9abb-4e22-8ab3-1bfbdd60b509")
+		(property "Reference" "3v31"
+			(at 266.9032 57.9628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3v3"
+			(at 266.9032 60.2742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 270.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d78b464e-952a-42fd-8822-ece6c8ca3d13")
+		)
+		(instances
+			(project "wiiu-reg"
+				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
+					(reference "3v31")
 					(unit 1)
 				)
 			)
@@ -10351,7 +10551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "2.2uF"
 			(at 56.388 97.282 0)
 			(effects
 				(font
@@ -11345,6 +11545,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77394e90-c01a-49a0-ba38-7177159d9ccb")
+		(property "Reference" "FAN1"
+			(at 266.9032 21.1328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5v"
+			(at 266.9032 23.4442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 270.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eac4ea00-6daf-4448-a9e1-26d49a82f7ad")
+		)
+		(instances
+			(project "wiiu-reg"
+				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
+					(reference "FAN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 53.34 46.99 0)
 		(unit 1)
@@ -11362,7 +11628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "2.2uF"
 			(at 56.388 50.292 0)
 			(effects
 				(font
@@ -14342,7 +14608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcffb697-4942-4775-8f2e-ce6b882e2bba")
-		(property "Reference" "TP9"
+		(property "Reference" "1v25"
 			(at 55.118 134.62 90)
 			(effects
 				(font
@@ -14391,7 +14657,7 @@
 		(instances
 			(project ""
 				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
-					(reference "TP9")
+					(reference "1v25")
 					(unit 1)
 				)
 			)
@@ -15539,7 +15805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feedffcd-0b40-480a-a5ad-e6347be0ff13")
-		(property "Reference" "TP10"
+		(property "Reference" "1v1"
 			(at 60.96 149.0979 0)
 			(effects
 				(font
@@ -15590,7 +15856,7 @@
 		(instances
 			(project "wiiu-reg"
 				(path "/1991163f-1e5c-4521-9a7d-bf946dbadd1f"
-					(reference "TP10")
+					(reference "1v1")
 					(unit 1)
 				)
 			)
