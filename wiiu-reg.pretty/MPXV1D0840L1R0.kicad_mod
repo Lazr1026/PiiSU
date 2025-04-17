@@ -1,0 +1,171 @@
+(footprint "MPXV1D0840L1R0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MPXV")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 -7.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "064e90ce-0daf-416f-aa2a-8df14daadbfa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MPXV1D0840L1R0"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7b602097-7b73-4186-9ef3-de7634426391")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20d8ff44-3fcd-42e4-ace5-a250b9813e56")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ba99169-e965-4933-83d8-4be69e23658b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.325 4)
+		(end 4.325 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c11403f1-3383-4f0a-978f-e2366a88c9b2")
+	)
+	(fp_line
+		(start 4.325 -4)
+		(end -4.325 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96d7253d-1ebc-4ada-b4f4-5ded8dadee11")
+	)
+	(fp_line
+		(start -5.2 4.35)
+		(end -5.2 -4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93a219e1-e6d8-4a38-90cf-a920d7554df9")
+	)
+	(fp_line
+		(start 5.2 -4.35)
+		(end 5.2 4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "56e8f436-ab88-408a-a49a-3e1e77b4f81a")
+	)
+	(fp_line
+		(start 5.2 4.35)
+		(end -5.2 4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "058c96d2-0b96-4dee-b808-a76be2ffec2a")
+	)
+	(fp_line
+		(start -4.325 -4)
+		(end 4.325 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da1fc3da-49e4-4c05-90f4-5524f178f653")
+	)
+	(fp_line
+		(start -4.325 4)
+		(end -4.325 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa4578fc-b023-48ff-82ae-fa8dd0a63d9b")
+	)
+	(fp_line
+		(start 4.325 -4)
+		(end 4.325 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33494a74-4039-4942-be59-52cf64910c56")
+	)
+	(fp_line
+		(start 4.325 4)
+		(end -4.325 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff30f6f2-661e-448d-a452-1713a99bee75")
+	)
+	(pad "1" smd rect
+		(at -3.85 0)
+		(size 2.2 5.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7a0ad03-578f-4806-b6c8-1aad08bcfe88")
+	)
+	(pad "2" smd rect
+		(at 3.85 0)
+		(size 2.2 5.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "32851572-1263-48ae-8e37-830591d92431")
+	)
+	(embedded_fonts no)
+	(model "/home/ivy/HDD/kicad things/wiiu-reg/3D/MPXV1D0840L1R0.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

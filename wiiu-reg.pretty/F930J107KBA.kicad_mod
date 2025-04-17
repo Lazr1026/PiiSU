@@ -1,0 +1,191 @@
+(footprint "F930J107KBA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "F930J107KBA_A")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1712626e-4153-46d9-b998-4e46da4da216")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "F930J107KBA"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7d99121f-02fb-4ea1-b1ee-278301662852")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cf26d0f-a236-4f8c-a804-2d9792dd01c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c2c4bcb-4a8d-4143-90a8-9fb9f712266a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 1.4)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aeea525d-2877-4a29-a346-89a8c6540e17")
+	)
+	(fp_line
+		(start 1.75 -1.4)
+		(end -2.375 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e984b0e7-3041-4074-9bbf-9e8777f49aab")
+	)
+	(fp_line
+		(start -2.625 -1.75)
+		(end 2.625 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5608d7b5-7afa-414b-a55a-acd5c0f2075f")
+	)
+	(fp_line
+		(start -2.625 1.75)
+		(end -2.625 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c33f5ac-d162-4e0e-9c74-2b8d63b9efac")
+	)
+	(fp_line
+		(start 2.625 -1.75)
+		(end 2.625 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb7d828a-39aa-4708-9194-318633b931e1")
+	)
+	(fp_line
+		(start 2.625 1.75)
+		(end -2.625 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60a433bf-b77b-4f24-9ab6-887b873d7b5f")
+	)
+	(fp_line
+		(start -1.75 -1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "093b1a23-dbe0-4e83-8275-47c943aea208")
+	)
+	(fp_line
+		(start -1.75 -0.525)
+		(end -0.875 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff19bca8-3add-4ee7-94f0-03d2dc105643")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end -1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ea8a69c-3030-4f91-a7b7-de509bbfcc3b")
+	)
+	(fp_line
+		(start 1.75 -1.4)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "617255a9-1f1a-4459-b7f5-c75daf96d300")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end -1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1bfa9ae-0dc9-4635-90eb-414e4585b227")
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.75 2.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84b692db-8868-403b-a1b1-5ea33a4825a9")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.75 2.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa7b760b-ab5e-4c06-889e-bb6caf73b8d3")
+	)
+	(embedded_fonts no)
+	(model "/home/ivy/HDD/kicad things/wiiu-reg/3D/F930J107KBA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 5.3,
-          "width": 2.2
+          "height": 1.35,
+          "width": 1.35
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -499,7 +499,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -625,6 +625,22 @@
     [
       "1991163f-1e5c-4521-9a7d-bf946dbadd1f",
       "Root"
+    ],
+    [
+      "90b18e9f-513f-4eb0-ae09-b902bfbd9797",
+      "SiC431 1v"
+    ],
+    [
+      "aafba9da-ce1f-4269-a516-a54fbbf6b79c",
+      "SiC431 1v15"
+    ],
+    [
+      "67bbc05c-e241-462c-9fd8-08ae03202d42",
+      "Low Power"
+    ],
+    [
+      "f1448fe0-6493-49ab-82ba-237c1fb23245",
+      "DRH"
     ]
   ],
   "text_variables": {}
